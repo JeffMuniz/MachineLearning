@@ -16,26 +16,35 @@
 
         <Entry Placeholder="User Name"
                Grid.Row="1" />
-        
+
         <Button Text="Your Name"
                 Grid.Row="1"
                 Grid.Column="1" />
-    
+
         <CollectionView Grid.Row="2" Grid.ColumnSpan="2" >
             <CollectionView.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>Male</x:String>
-                    <x:String> Female </x:String>
+                    <x:String>Female</x:String>
                     <x:String>Non Binnary</x:String>
                 </x:Array>
             </CollectionView.ItemsSource>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Grid Padding="0,5">
-                        <Frame>
-                            <Label Text ="{Binding .}"/>
-                        </Frame>
-                    </Grid>
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Delete"
+                                            BackgroundColor="Red"/>
+                             </SwipeItems>
+                        </SwipeView.RightItems>
+                        <Grid Padding="0,5">
+                            <Frame>
+                                <Label Text ="{Binding .}"
+                                       FontSize="24"/>
+                            </Frame>
+                        </Grid>
+                    </SwipeView>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
 
