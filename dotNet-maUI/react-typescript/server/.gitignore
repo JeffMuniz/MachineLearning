@@ -1,6 +1,10 @@
+node_modules/*
+dotNet-maUI/react-typescript/node_modules/*
+dotNet-maUI/react-typescript/node_modules/.bin/*.*
+
+node_modules/.bin/*
 .idea/
 .vscode/
-node_modules/
 build/
 tmp/
 .env
