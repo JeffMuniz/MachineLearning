@@ -45,7 +45,7 @@
                             </Frame>
                         </Grid>
                     </SwipeView>
-                </DataTemplate>
+                </DataTemplate> 
             </CollectionView.ItemTemplate>
 
         </CollectionView>
