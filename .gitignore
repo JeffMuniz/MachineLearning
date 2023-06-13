@@ -1,6 +1,4 @@
-dotNet-maUI/react-typescript/node_modules/.bin/acorn
 dotNet-maUI/react-typescript/node_modules/*
-dotNet-maUI/react-typescript/node_modules/.bin/*.*
-node_modules/*
-node_modules/.bin/*
-dotNet-maUI/react-typescript/node_modules/.bin/acorn.ps1
+dotNet-maUI/MauiApp2/.vs/*
+.vs/*
+dotNet-maUI/MauiApp2/.vs/MauiApp2/DesignTimeBuild/.dtbcache.v2
